@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+td {
+    background-color: white;
+    border: solid 4px;
+}
+
+table {
+    width: ;
+}
