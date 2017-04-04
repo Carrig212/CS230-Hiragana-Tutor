@@ -6,11 +6,49 @@ body {
     visibility: hidden;
 }
 
-td {
+td, #testButton, #menuButton, .quiz {
     background-color: white;
     border: solid 4px;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 5px;
+    font-family: "Sans";
+    align-items: center;
 }
 
-table {
-    width: ;
+img {
+    padding: 2px;
+}
+
+h1 {
+    font-family: "Sans";
+    font-size: 48px;
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#testButton, #menuButton {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.quizPrompt {
+    text-align: center;
+    font-family: "Sans";
+}
+
+.option {
+    text-align: center;
+    font-weight: bold;
+}
+
+#menuButton, .quiz, #quizDiv, #quizzes {
+    display: none;
 }
