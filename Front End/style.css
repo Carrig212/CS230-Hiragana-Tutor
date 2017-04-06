@@ -6,13 +6,14 @@ body {
     visibility: hidden;
 }
 
-td, #testButton, #menuButton, .quiz {
+td, #testButton, #menuButton, .question {
     background-color: white;
     border: solid 4px;
     box-shadow: 10px 10px 5px #888888;
     padding: 5px;
     font-family: "Sans";
     align-items: center;
+    border-radius: 5px;
 }
 
 img {
@@ -51,4 +52,14 @@ h1 {
 
 #menuButton, .quiz, #quizDiv, #quizzes {
     display: none;
+}
+
+.question {
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }

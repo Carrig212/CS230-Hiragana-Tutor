@@ -3,8 +3,8 @@
     <head>
 		<meta charset="utf-8"/>
 		<title>Hiragana Tutor</title>
-		<link rel="stylesheet" type="text/css" href="/Front%20End/style.css"/>
-        <script type="text/javascript" src="/Front%20End/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="  script.js"></script>
 	</head>
 	<body>
 		<h1 align="center">Hiragana Tutor</h1>
@@ -103,7 +103,7 @@
                         <td class="option" onClick="showQuiz(this);"width="150px" height="75">S Group</td>
                     </tr>
                     <tr>
-                        <td class="option" onClick="showQuiz(this);"width="150px" height="75">T group</td>
+                        <td class="option" onClick="showQuiz(this);"width="150px" height="75">T Group</td>
                         <td class="option" onClick="showQuiz(this);"width="150px" height="75">N Group</td>
                         <td class="option" onClick="showQuiz(this);"width="150px" height="75">H Group</td>
                     </tr>
@@ -116,11 +116,146 @@
             </div>
         </div>
         <div id="quizzes">
-            <h2 class="quizPrompt">Vowel Group Quiz</h2>
             <div class="quiz" id="vowel">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Japanese_Hiragana_kyokashotai_I.png/80px-Japanese_Hiragana_kyokashotai_I.png"/>
-                <h3>Can you identify this symbol?</h3>
+                <h2 class="quizPrompt">Vowel Group Quiz</h2>
+                <div class="question" align="center">
+                    <h1 class="symbol">あ</h1>
+                    <p class="questionPrompt">What romaji matches this kana?</p>
+                    <form>
+                        <input type="radio" name="Question1" value="a"> a
+                        <input type="radio" name="Question1" value="i"> i
+                        <input type="radio" name="Question1" value="o"> o
+                        <input type="radio" name="Question1" value="e"> e
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">い</h1>
+                    <p class="questionPrompt">What romaji matches this kana?</p>
+                    <form>
+                        <input type="radio" name="Question2" value="e"> e
+                        <input type="radio" name="Question2" value="a"> a
+                        <input type="radio" name="Question2" value="i"> i
+                        <input type="radio" name="Question2" value="u"> u
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">う</h1>
+                    <p class="questionPrompt">What romaji matches this kana?</p>
+                    <form>
+                        <input type="radio" name="Question3" value="i"> i
+                        <input type="radio" name="Question3" value="u"> u                       <input type="radio" name="Question3" value="o"> o
+                        <input type="radio" name="Question3" value="a"> a
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">え</h1>
+                    <p class="questionPrompt">What romaji matches this kana?</p>
+                    <form>
+                        <input type="radio" name="Question4" value="e"> e
+                        <input type="radio" name="Question4" value="o"> o
+                        <input type="radio" name="Question4" value="u"> u
+                        <input type="radio" name="Question4" value="i"> i
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">お</h1>
+                    <p class="questionPrompt">What romaji matches this kana?</p>
+                    <form>
+                        <input type="radio" name="Question5" value="e"> e
+                        <input type="radio" name="Question5" value="u"> u
+                        <input type="radio" name="Question5" value="a"> a
+                        <input type="radio" name="Question5" value="o"> o
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">o</h1>
+                    <p class="questionPrompt">What kana matches this romaji?</p>
+                    <form>
+                        <input type="radio" name="Question6" value="い"> い
+                        <input type="radio" name="Question6" value="え"> え
+                        <input type="radio" name="Question6" value="あ"> あ
+                        <input type="radio" name="Question6" value="お"> お
+
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">e</h1>
+                    <p class="questionPrompt">What kana matches this romaji?</p>
+                    <form>
+                        <input type="radio" name="Question7" value="う"> う
+                        <input type="radio" name="Question7" value="え"> え
+                        <input type="radio" name="Question7" value="あ"> あ
+                        <input type="radio" name="Question7" value="い"> い
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">a</h1>
+                    <p class="questionPrompt">What kana matches this romaji?</p>
+                    <form>
+                        <input type="radio" name="Question8" value="う"> う
+                        <input type="radio" name="Question8" value="あ"> あ
+                        <input type="radio" name="Question8" value="お"> お 
+                        <input type="radio" name="Question8" value="い"> い
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">u</h1>
+                    <p class="questionPrompt">What kana matches this romaji?</p>
+                    <form>
+                        <input type="radio" name="Question9" value="え"> え
+                        <input type="radio" name="Question9" value="い"> い
+                        <input type="radio" name="Question9" value="お"> お
+                        <input type="radio" name="Question9" value="あ"> あ
+                    </form>
+                </div>
+                <div class="question" align="center">
+                    <h1 class="symbol">i</h1>
+                    <p class="questionPrompt">What kana matches this romaji?</p>
+                    <form>
+                        <input type="radio" name="Question10" value="う"> う
+                        <input type="radio" name="Question10" value="え"> え
+                        <input type="radio" name="Question10" value="お"> お
+                        <input type="radio" name="Question10" value="い"> い
+                    </form>
+                </div>
+            </div>
+            <div class="quiz" id="k">
+                <h2 class="quizPrompt">K Group Quiz</h2>
+            </div>
+            <div class="quiz" id="s">
+                <h2 class="quizPrompt">S Group Quiz</h2>
+            </div>
+            <div class="quiz" id="t">
+                <h2 class="quizPrompt">T Group Quiz</h2>
+            </div>
+            <div class="quiz" id="n">
+                <h2 class="quizPrompt">N Group Quiz</h2>
+            </div>
+            <div class="quiz" id="h">
+                <h2 class="quizPrompt">H Group Quiz</h2>
+            </div>
+            <div class="quiz" id="m">
+                <h2 class="quizPrompt">M Group Quiz</h2>
+            </div>
+            <div class="quiz" id="r">
+                <h2 class="quizPrompt">R Group Quiz</h2>
+            </div>
+            <div class="quiz" id="ywn">
+                <h2 class="quizPrompt">Y, W, N Groups Quiz</h2>
             </div>
         </div>
 	</body>
 </html>
+<!--
+	a	 i	 u	  e	  o
+k	か	き	く	け	こ
+s	さ	し	す	せ	そ
+t	た	ち	つ	て	と
+n	な	に	ぬ	ね	の
+h	は	ひ	ふ	へ	ほ
+m	ま	み	む	め	も
+y	や		ゆ		 よ
+r	ら	り	る	れ	ろ
+w	わ	ゐ		ゑ	を
+ん
+-->
