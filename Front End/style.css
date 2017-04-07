@@ -6,7 +6,7 @@ body {
     visibility: hidden;
 }
 
-td, #testButton, #menuButton, .question {
+td, #testButton, #menuButton, .question, #submitButton {
     background-color: white;
     border: solid 4px;
     box-shadow: 10px 10px 5px #888888;
@@ -31,7 +31,7 @@ h1 {
     padding: 30px;
 }
 
-#testButton, #menuButton {
+#testButton, #menuButton, #submitButton {
     width: 200px;
     height: 50px;
     font-size: 20px;
@@ -62,4 +62,11 @@ h1 {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#submitButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
